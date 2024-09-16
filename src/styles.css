@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./blog.jpg');
+ background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .post:last-child {
+    border-bottom: none;
+  }
+  
+  .post h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .post p {
+    color: #555;
+  }
+  
+  .post button {
+    background: #dc3545;
+  }
+  
+  .post button:hover {
+    background: #c82333;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .post a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
